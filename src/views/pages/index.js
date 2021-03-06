@@ -6,7 +6,7 @@ import BetterQA5 from './BetterQA5'
 import BetterQA6 from './BetterQA6'
 import BetterQA7 from './BetterQA7'
 import BetterQA8 from './BetterQA8'
-
+import BetterQA9 from './BetterQA9'
 
 const pages = [
   {
@@ -61,12 +61,18 @@ const pages = [
   {
     name: 'Page 8',
     meta: {
-      title: 'The Art of Exploratory Testing'
+      title: 'BDD and TDD'
     },
     component: BetterQA8
   },
   
-
+  {
+    name: 'Page 9',
+    meta: {
+      title: 'The Art of Exploratory Testing'
+    },
+    component: BetterQA9
+  },
 ]
 
 pages.forEach((page, index) => page.path = `${index + 1}`)
